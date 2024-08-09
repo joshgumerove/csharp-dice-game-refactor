@@ -7,7 +7,7 @@ Console.ReadKey();
 
 class Dice
 {
-    private const int MAX = 7;
+    private const int sidesCount = 6;
     private readonly Random _random;
 
     public Dice(Random random)
@@ -16,7 +16,7 @@ class Dice
     }
 
 
-    public int Roll() => _random.Next(1, MAX);
+    public int Roll() => _random.Next(1, sidesCount);
 
     public void Describe() => Console.WriteLine("This is a dice with 6 sides");
 }
