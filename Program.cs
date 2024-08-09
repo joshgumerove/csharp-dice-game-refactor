@@ -21,14 +21,19 @@ public class GeussingGame
         Console.WriteLine($"Dice Rolled. Guess what number it shows in {InitialTries} tries.");
         var triesLeft = InitialTries;
 
-        while(triesLeft > 0)
+        while (triesLeft > 0)
         {
-            var guess = ReadInteger("Enter a number:");
+            var guess = ConsoleReader.ReadInteger("Enter a number:");
             --triesLeft;
         }
     }
 
-    private int ReadInteger(string message)
+
+}
+
+static public class ConsoleReader
+{
+    static public int ReadInteger(string message)
     {
         int result;
         do
