@@ -16,7 +16,7 @@ class Dice
     }
 
 
-    public int Roll() => _random.Next(1, sidesCount);
+    public int Roll() => _random.Next(1, sidesCount + 1);
 
-    public void Describe() => Console.WriteLine("This is a dice with 6 sides");
+    public void Describe() => Console.WriteLine($"This is a dice with {sidesCount} sides");
 }
