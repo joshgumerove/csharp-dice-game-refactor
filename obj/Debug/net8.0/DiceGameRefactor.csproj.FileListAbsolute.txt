@@ -1,0 +1,14 @@
+C:\Users\jgume\source\repos\DiceGameRefactor\DiceGameRefactor\bin\Debug\net8.0\DiceGameRefactor.exe
+C:\Users\jgume\source\repos\DiceGameRefactor\DiceGameRefactor\bin\Debug\net8.0\DiceGameRefactor.deps.json
+C:\Users\jgume\source\repos\DiceGameRefactor\DiceGameRefactor\bin\Debug\net8.0\DiceGameRefactor.runtimeconfig.json
+C:\Users\jgume\source\repos\DiceGameRefactor\DiceGameRefactor\bin\Debug\net8.0\DiceGameRefactor.dll
+C:\Users\jgume\source\repos\DiceGameRefactor\DiceGameRefactor\bin\Debug\net8.0\DiceGameRefactor.pdb
+C:\Users\jgume\source\repos\DiceGameRefactor\DiceGameRefactor\obj\Debug\net8.0\DiceGameRefactor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jgume\source\repos\DiceGameRefactor\DiceGameRefactor\obj\Debug\net8.0\DiceGameRefactor.AssemblyInfoInputs.cache
+C:\Users\jgume\source\repos\DiceGameRefactor\DiceGameRefactor\obj\Debug\net8.0\DiceGameRefactor.AssemblyInfo.cs
+C:\Users\jgume\source\repos\DiceGameRefactor\DiceGameRefactor\obj\Debug\net8.0\DiceGameRefactor.csproj.CoreCompileInputs.cache
+C:\Users\jgume\source\repos\DiceGameRefactor\DiceGameRefactor\obj\Debug\net8.0\DiceGameRefactor.dll
+C:\Users\jgume\source\repos\DiceGameRefactor\DiceGameRefactor\obj\Debug\net8.0\refint\DiceGameRefactor.dll
+C:\Users\jgume\source\repos\DiceGameRefactor\DiceGameRefactor\obj\Debug\net8.0\DiceGameRefactor.pdb
+C:\Users\jgume\source\repos\DiceGameRefactor\DiceGameRefactor\obj\Debug\net8.0\DiceGameRefactor.genruntimeconfig.cache
+C:\Users\jgume\source\repos\DiceGameRefactor\DiceGameRefactor\obj\Debug\net8.0\ref\DiceGameRefactor.dll
