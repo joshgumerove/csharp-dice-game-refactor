@@ -8,8 +8,14 @@
 Season firstSeason = Season.Spring;
 int firstSeasonAsNumber = (int)firstSeason;
 
+Season lastSeason = Season.Winter;
+int lastSeasonAsNumber = (int)lastSeason;
+
 Console.WriteLine($"What is firstSeason: {firstSeason}");
 Console.WriteLine($"What is firstSeasonAsNumber: {firstSeasonAsNumber}");
+
+Console.WriteLine($"What is lastSeason: {lastSeason}");
+Console.WriteLine($"What is lastSeasonAsNumber: {lastSeasonAsNumber}");
 
 Console.ReadKey();
 
