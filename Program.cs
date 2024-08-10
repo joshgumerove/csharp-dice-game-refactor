@@ -1,11 +1,23 @@
 ﻿
-var random = new Random();
-var dice = new Dice(random);
-var guessingGame = new GeussingGame(dice);
+//var random = new Random();
+//var dice = new Dice(random);
+//var guessingGame = new GeussingGame(dice);
 
-guessingGame.Play();
+//guessingGame.Play();
+
+Season firstSeason = Season.Spring;
+
+Console.WriteLine($"What is firstSeason: {firstSeason}");
 
 Console.ReadKey();
+
+public enum Season
+{
+    Spring,
+    Summer,
+    Fall,
+    Winter
+}
 
 public class GeussingGame
 {
