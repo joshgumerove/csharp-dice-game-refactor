@@ -5,7 +5,6 @@ var guessingGame = new GeussingGame(dice);
 
 guessingGame.Play();
 
-//Console.WriteLine($"What is value {diceRollResult}");
 Console.ReadKey();
 
 public class GeussingGame
