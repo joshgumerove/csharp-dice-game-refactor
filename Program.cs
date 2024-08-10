@@ -6,8 +6,10 @@
 //guessingGame.Play();
 
 Season firstSeason = Season.Spring;
+int firstSeasonAsNumber = (int)firstSeason;
 
 Console.WriteLine($"What is firstSeason: {firstSeason}");
+Console.WriteLine($"What is firstSeasonAsNumber: {firstSeasonAsNumber}");
 
 Console.ReadKey();
 
