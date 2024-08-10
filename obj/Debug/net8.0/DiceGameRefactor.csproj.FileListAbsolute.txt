@@ -12,3 +12,4 @@ C:\Users\jgume\source\repos\DiceGameRefactor\DiceGameRefactor\obj\Debug\net8.0\r
 C:\Users\jgume\source\repos\DiceGameRefactor\DiceGameRefactor\obj\Debug\net8.0\DiceGameRefactor.pdb
 C:\Users\jgume\source\repos\DiceGameRefactor\DiceGameRefactor\obj\Debug\net8.0\DiceGameRefactor.genruntimeconfig.cache
 C:\Users\jgume\source\repos\DiceGameRefactor\DiceGameRefactor\obj\Debug\net8.0\ref\DiceGameRefactor.dll
+C:\Users\jgume\source\repos\DiceGameRefactor\DiceGameRefactor\obj\Debug\net8.0\DiceGameRefactor.sourcelink.json
