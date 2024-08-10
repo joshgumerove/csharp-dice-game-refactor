@@ -3,21 +3,21 @@ var random = new Random();
 var dice = new Dice(random);
 var guessingGame = new GeussingGame(dice);
 
-guessingGame.Play();
-
-Console.ReadKey();
+GameResult gameResult = guessingGame.Play();
 
 public class GeussingGame
 {
     private const int InitialTries = 3;
     private readonly Dice _dice;
 
+  
+
     public GeussingGame(Dice dice)
     {
         _dice = dice;
     }
 
-    public bool Play()
+    public GameResult Play()
     {
         var diceRollResult = _dice.Roll();
         Console.WriteLine($"Dice Rolled. Guess what number it shows in {InitialTries} tries.");
@@ -29,15 +29,21 @@ public class GeussingGame
             if(guess == diceRollResult)
             {
                 Console.WriteLine("You win");
-                return true;
+                return GameResult.Victory;
             }
             Console.WriteLine("Wrong Number.");
             --triesLeft;
         }
-        return false;
+        return GameResult.Loss;
     }
 
 
+}
+
+ public enum GameResult
+{
+    Victory,
+    Loss
 }
 
 static public class ConsoleReader
