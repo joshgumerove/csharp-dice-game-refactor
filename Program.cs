@@ -21,10 +21,10 @@ Console.ReadKey();
 
 public enum Season
 {
-    Spring,
-    Summer,
-    Fall,
-    Winter
+    Spring=1,
+    Summer=2,
+    Fall=3,
+    Winter=4
 }
 
 public class GeussingGame
