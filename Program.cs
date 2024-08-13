@@ -5,14 +5,7 @@ var guessingGame = new GeussingGame(dice);
 
 GameResult gameResult = guessingGame.Play();
 
-if(gameResult == GameResult.Victory)
-{
-    Console.WriteLine("You win");
-}
-else
-{
-    Console.WriteLine("You Lose");
-}
+guessingGame.PrintResult(gameResult);
 
 Console.ReadKey();
 
@@ -46,6 +39,13 @@ public class GeussingGame
             --triesLeft;
         }
         return GameResult.Loss;
+    }
+
+    public void PrintResult(GameResult result)
+    {
+        string message = result == GameResult.Victory ? "You Win" : "You Lose";
+        Console.WriteLine(message);
+
     }
 
 
