@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DiceGameRefactor")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c88bf56320c0fc1a556d4632b238d78673a404df")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d67b50a866e7d3aeee78f9fb8f6b4a289725e766")]
 [assembly: System.Reflection.AssemblyProductAttribute("DiceGameRefactor")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DiceGameRefactor")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
