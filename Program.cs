@@ -5,7 +5,7 @@ var guessingGame = new GeussingGame(dice);
 
 GameResult gameResult = guessingGame.Play();
 
-guessingGame.PrintResult(gameResult);
+GeussingGame.PrintResult(gameResult);
 
 Console.ReadKey();
 
@@ -32,7 +32,6 @@ public class GeussingGame
             var guess = ConsoleReader.ReadInteger("Enter a number:");
             if (guess == diceRollResult)
             {
-                Console.WriteLine("You win");
                 return GameResult.Victory;
             }
             Console.WriteLine("Wrong Number.");
@@ -41,7 +40,7 @@ public class GeussingGame
         return GameResult.Loss;
     }
 
-    public void PrintResult(GameResult result)
+    static public void PrintResult(GameResult result)
     {
         string message = result == GameResult.Victory ? "You Win" : "You Lose";
         Console.WriteLine(message);
