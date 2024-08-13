@@ -5,6 +5,17 @@ var guessingGame = new GeussingGame(dice);
 
 GameResult gameResult = guessingGame.Play();
 
+if(gameResult == GameResult.Victory)
+{
+    Console.WriteLine("You win");
+}
+else
+{
+    Console.WriteLine("You Lose");
+}
+
+Console.ReadKey();
+
 public class GeussingGame
 {
     private const int InitialTries = 3;
