@@ -14,7 +14,7 @@ public class GeussingGame
     private const int InitialTries = 3;
     private readonly Dice _dice;
 
-  
+
 
     public GeussingGame(Dice dice)
     {
@@ -30,7 +30,7 @@ public class GeussingGame
         while (triesLeft > 0)
         {
             var guess = ConsoleReader.ReadInteger("Enter a number:");
-            if(guess == diceRollResult)
+            if (guess == diceRollResult)
             {
                 Console.WriteLine("You win");
                 return GameResult.Victory;
@@ -51,7 +51,7 @@ public class GeussingGame
 
 }
 
- public enum GameResult
+public enum GameResult
 {
     Victory,
     Loss
